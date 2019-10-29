@@ -2,8 +2,11 @@
 Automatically water plant on schedule with extra watering enabled by using a switch
 
 Hardware
+
 Raspberry Pi Zero WH 
+
 Water Pump (3-6V, max 200mA) 
+
 USB to micro USB cable
 Switch
 Transistor
