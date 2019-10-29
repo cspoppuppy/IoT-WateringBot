@@ -16,11 +16,11 @@ Automatically water plant on schedule with extra watering enabled by using a swi
 -------------------------------------------------------------------------------------
 ## Software
 
-* Raspbian Lite
-* BanelaEtcher
-* Putty
-* Bonjour
-* Notepad++
+* [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
+* [BanelaEtcher](https://www.balena.io/etcher/)
+* [Putty](https://www.putty.org/)
+* [Bonjour](https://support.apple.com/kb/DL999?locale=en_GB)
+* [Notepad++](https://notepad-plus-plus.org/downloads/)
 * Python (included in Raspian)
 
 
