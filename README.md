@@ -25,3 +25,5 @@ Automatically water plant on schedule with extra watering enabled by using a swi
 
 
 
+http://github.com - automatic!
+[GitHub](http://github.com)
