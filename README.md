@@ -1,6 +1,7 @@
 # PlantWatering
 Automatically water plant on schedule with extra watering enabled by using a switch
 
+-------------------------------------------------------------------------------------
 Hardware
 
 Raspberry Pi Zero WH 
