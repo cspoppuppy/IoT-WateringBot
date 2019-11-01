@@ -24,7 +24,7 @@ Automatically water plant on schedule with extra watering enabled by using a swi
 * Python (included in Raspian)
 
 -------------------------------------------------------------------------------------
-## Steps
+## Implementation
 
 ### Step 1: Setup Raspberry Pi Zero WH
 
