@@ -26,7 +26,7 @@ Automatically water plant on schedule with extra watering enabled by using a swi
 -------------------------------------------------------------------------------------
 ## Implementation
 
-### Step 1: Setup Raspberry Pi Zero WH
+### Step 1: [Setup Raspberry Pi Zero WH](https://github.com/cspoppuppy/PlantWatering/wiki/Setup-Raspberry-Pi-(headless))
 
 
 ### Step 2: Circuit Design
