@@ -32,4 +32,4 @@ Automatically water plant on schedule with extra watering enabled by using a swi
 ### Step 2: [Assemble Circuit](https://github.com/cspoppuppy/PlantWatering/wiki/Circuit-Design)
 
 
-### Step 3: Control pump using Python
+### Step 3: [Control pump using Python](https://github.com/cspoppuppy/PlantWatering/wiki/Control-pump-using-Python)
