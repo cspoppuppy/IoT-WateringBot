@@ -1,5 +1,7 @@
 # PlantWatering
-Automatically water plant on schedule with extra watering enabled by using a switch
+* Automatically water plant on schedule
+* Enable extra watering using a switch
+* Log watering history
 
 -------------------------------------------------------------------------------------
 ## Hardware
