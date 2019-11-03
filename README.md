@@ -6,6 +6,13 @@
 * Enable extra watering using a switch
 * Log watering history
 
+Extended functions: Water detector
+
+when water is running low
+* Prevent pump running 
+* Flash LED light
+* Send message to mobile (via Twilio)
+
 -------------------------------------------------------------------------------------
 ## Hardware
 
