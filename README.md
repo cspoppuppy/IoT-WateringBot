@@ -1,4 +1,7 @@
 # PlantWatering
+
+![WaterBot](https://github.com/cspoppuppy/PlantWatering/blob/master/WaterBot.JPG)
+
 * Automatically water plant on schedule
 * Enable extra watering using a switch
 * Log watering history
