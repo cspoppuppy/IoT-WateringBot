@@ -31,7 +31,7 @@
 ### Step 1: [Setup Raspberry Pi Zero WH](https://github.com/cspoppuppy/PlantWatering/wiki/Setup-Raspberry-Pi-(headless))
 
 
-### Step 2: [Assemble Circuit](https://github.com/cspoppuppy/PlantWatering/wiki/Circuit-Design)
+### Step 2: [Assemble Circuit](https://github.com/cspoppuppy/PlantWatering/wiki/Assemble-Circuit)
 
 
 ### Step 3: [Control pump using Python](https://github.com/cspoppuppy/PlantWatering/wiki/Control-pump-using-Python)
