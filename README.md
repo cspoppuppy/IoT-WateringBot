@@ -45,3 +45,10 @@ Extended functions - Water detector. When water is running low:
 
 
 ### Step 3: [Control pump using Python](https://github.com/cspoppuppy/PlantWatering/wiki/Control-pump-using-Python)
+
+-------------------------------------------------------------------------------------
+## Extended Functions
+
+### Water detector circuit
+
+### WaterPump_v2.py
