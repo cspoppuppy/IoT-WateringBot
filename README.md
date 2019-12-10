@@ -51,4 +51,4 @@ Extended functions - Water detector. When water is running low:
 
 ### Water detector circuit
 
-### * [WaterPump_v2.py](https://github.com/cspoppuppy/PlantWatering/blob/master/WaterPump_v2.py)
+### [WaterPump_v2.py](https://github.com/cspoppuppy/PlantWatering/blob/master/WaterPump_v2.py)
