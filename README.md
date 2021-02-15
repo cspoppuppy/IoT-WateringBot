@@ -1,4 +1,4 @@
-# PlantWatering
+# Plant Watering Bot
 
 ![WaterBot](https://github.com/cspoppuppy/PlantWatering/blob/master/WaterBot.JPG)
 
