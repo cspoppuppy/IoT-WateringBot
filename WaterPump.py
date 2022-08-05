@@ -3,8 +3,8 @@ import time
 import schedule
 from datetime import datetime
 
-Pump_Pin=11
-Switch_Pin=13
+PUMP_PIN=11
+SWITCH_PIN=13
 Switch_On=False
 Start_Time=0
 End_Time=0
@@ -12,20 +12,20 @@ End_Time=0
 # Use Pin number
 GPIO.setmode(GPIO.BOARD)
 # Set Pin 11 as output(supply 3.3v power)
-GPIO.setup(Pump_Pin, GPIO.OUT)
+GPIO.setup(PUMP_PIN, GPIO.OUT)
 # Set Pin 13 as input
-GPIO.setup(Switch_Pin, GPIO.IN)
+GPIO.setup(SWITCH_PIN, GPIO.IN)
 
 def PumpWater(duration=0):
 	print("Start watering...")
-	GPIO.output(Pump_Pin,GPIO.HIGH)
+	GPIO.output(PUMP_PIN,GPIO.HIGH)
 	if duration>0:
 		print("Continue...")
 		time.sleep(duration)
 
 def StopWater(duration=0):
 	print("Stop watering...")
-	GPIO.output(Pump_Pin,GPIO.LOW)
+	GPIO.output(PUMP_PIN,GPIO.LOW)
 	if duration>0:
 		print("Continue...")
 		time.sleep(duration)
@@ -50,7 +50,7 @@ while True:
 	# Run scheduled task
 	#schedule.run_pending()
 	# Button override
-	input_value=GPIO.input(Switch_Pin)
+	input_value=GPIO.input(SWITCH_PIN)
 	if input_value==False:
 		print("Switch on")
 		Switch_On=True
@@ -58,7 +58,7 @@ while True:
 		# Pump water until switched off
 		PumpWater(0)
 		while input_value==False:
-			input_value=GPIO.input(Switch_Pin)
+			input_value=GPIO.input(SWITCH_PIN)
 			time.sleep(0.1)
 	else:
 		print("Switch off")
@@ -69,5 +69,5 @@ while True:
 			WriteToCSV(Start_Time, End_Time, "Switch")
 		#schedule.run_pending()
 		while input_value==True:
-			input_value=GPIO.input(Switch_Pin)		
+			input_value=GPIO.input(SWITCH_PIN)		
 			schedule.run_pending()
